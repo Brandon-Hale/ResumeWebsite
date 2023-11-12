@@ -42,7 +42,7 @@ import {
   
   const services = [
     {
-      title: "C# .NET Developer",
+      title: "C# & .NET Developer",
       icon: web,
     },
     {
@@ -50,11 +50,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Back-End Experience",
+      title: "SQL Databases",
       icon: backend,
     },
     {
-      title: "Java Developer",
+      title: "Microsoft 365 Stack",
       icon: creator,
     },
   ];
@@ -116,29 +116,26 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Information Technnology Intern",
+      company_name: "Intellect Systems",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "October 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Researching software solutions to improve workflow automation",
+        "Software Implementation into Microsoft systems",
+        "Software Life Cycle Development and Scrum Experience",
+        "Participating in meeting with Managing Director to guide process and implementation",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Warehouse Employee",
+      company_name: "Aidacare",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "November 2022 - November 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using React.js and other related technologies."
       ],
     },
     {

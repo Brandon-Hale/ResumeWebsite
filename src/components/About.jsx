@@ -35,8 +35,9 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a skilled software developer, in my peniultimate year at Curtin University in Perth, Australia.
-        I'm passionate about C# and ASP.NET Core using MVC and API's like REST to develop and deploy applications.
+      Final year Software Engineering student at Curtin University with a strong foundation in Java, C#, Microsoft ASP.NET, and MySQL. 
+      I thrive on solving complex problems with a process-driven mindset and am eager to apply my skills in computing and cybersecurity to real-world challenges. 
+      My quick learning ability and collaborative nature make me a valuable team player, always striving for personal and professional development.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

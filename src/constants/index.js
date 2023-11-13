@@ -4,6 +4,7 @@ import {
     backend,
     creator,
     web,
+    bhlogo,
 
     //skills
     javascript,

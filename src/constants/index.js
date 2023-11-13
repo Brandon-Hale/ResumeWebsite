@@ -24,6 +24,8 @@ import {
     carrent,
     jobit,
     tripguide,
+    websiteresume,
+    banksystem,
 
     //jobs
     intellectsystems,
@@ -215,33 +217,37 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "This Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Website that allows contacts or recruiters to view my own experience and projects in a cool and interesting way, aswell as being able to contact me. ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "html",
           color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "orange-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: websiteresume,
+      source_code_link: "https://github.com/Brandon-Hale/ResumeWebsite",
     },
     {
-      name: "Job IT",
+      name: "Distributed Bank System",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web-based Bank Service where users can login, update their details. They can also send transactions to other users across instances, updating their balances accordingly",
       tags: [
         {
-          name: "react",
+          name: "C Sharp",
           color: "blue-text-gradient",
         },
         {
@@ -249,11 +255,15 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "SQLite",
           color: "pink-text-gradient",
         },
+        {
+          name: "javascript",
+          color: "orange-text-gradient",
+        },
       ],
-      image: jobit,
+      image: banksystem,
       source_code_link: "https://github.com/",
     },
     {

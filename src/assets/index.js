@@ -31,6 +31,8 @@ import membrillo from "./company/membrillo.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import websiteresume from "./websiteresume.png";
+import banksystem from "./banksystem.png";
 
 export {
     github,
@@ -61,6 +63,8 @@ export {
     carrent,
     jobit,
     tripguide,
+    websiteresume,
+    banksystem,
 
     //jobs
     intellectsystems,

@@ -21,11 +21,10 @@ import {
     vscode,
 
     //projects
-    carrent,
-    jobit,
-    tripguide,
     websiteresume,
     banksystem,
+    p2p,
+    contactapp,
 
     //jobs
     intellectsystems,
@@ -219,7 +218,7 @@ import {
     {
       name: "This Website",
       description:
-        "Website that allows contacts or recruiters to view my own experience and projects in a cool and interesting way, aswell as being able to contact me. ",
+        "Website developed in react and tailwind that allows contacts or recruiters to view my own experience and projects in a cool and interesting way, aswell as being able to contact me. ",
       tags: [
         {
           name: "react",
@@ -244,7 +243,7 @@ import {
     {
       name: "Distributed Bank System",
       description:
-        "Web-based Bank Service where users can login, update their details. They can also send transactions to other users across instances, updating their balances accordingly",
+        "Web-based Bank Service developed in C# with a SQLite database where users can login, update their details. They can also send transactions to other users across instances, updating their balances accordingly",
       tags: [
         {
           name: "C Sharp",
@@ -264,29 +263,54 @@ import {
         },
       ],
       image: banksystem,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Brandon-Hale/DistributedBankSystem",
     },
     {
-      name: "Trip Guide",
+      name: "P2P Python Job Posting",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A peer to peer applicaiton developed in C# with Rest APIs that allow users to upload jobs in python and recieve the results back by other servers/client active at the time",
       tags: [
         {
-          name: "nextjs",
+          name: "C Sharp",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "restapi",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "SQLite",
           color: "pink-text-gradient",
         },
+        {
+          name: "ironpython",
+          color: "orange-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: p2p,
+      source_code_link: "https://github.com/Brandon-Hale/P2PIronPython",
     },
+    {
+      name: "Mobile Contacts Application",
+      description:
+        "A android application developed in Java, Android Studio that uses a database and stores contacts, that can be updated with the camera and other details. Also can import contacts from default application into list",
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SQLite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "android studio",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: contactapp,
+      source_code_link: "https://github.com/Brandon-Hale/ContactListApp",
+    }, 
   ];
   
   export { services, technologies, experiences, testimonials, projects };

@@ -28,16 +28,16 @@ import whp from "./company/whp.png";
 import raiders from "./company/raiders.png";
 import membrillo from "./company/membrillo.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import websiteresume from "./websiteresume.png";
 import banksystem from "./banksystem.png";
+import p2p from "./p2p.png";
+import contactapp from "./contactapp.png";
 
 export {
     github,
     menu, 
     close,
+
     //cards
     mobile,
     backend,
@@ -60,11 +60,10 @@ export {
     vscode,
 
     //projects
-    carrent,
-    jobit,
-    tripguide,
     websiteresume,
     banksystem,
+    p2p,
+    contactapp,
 
     //jobs
     intellectsystems,

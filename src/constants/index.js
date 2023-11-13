@@ -25,6 +25,7 @@ import {
     banksystem,
     p2p,
     contactapp,
+    adobesign,
 
     //jobs
     intellectsystems,
@@ -216,24 +217,49 @@ import {
   
   const projects = [
     {
-      name: "This Website",
+      name: "Adobe Sign Integration",
       description:
-        "Website developed in react and tailwind that allows contacts or recruiters to view my own experience and projects in a cool and interesting way, aswell as being able to contact me. ",
+        "Developing and integrating an advanced workflow automation program to enhance workplace efficiency and accelerate document handling, including sending, receiving, and signing agreements.",
       tags: [
         {
-          name: "react",
+          name: "Adobe",
           color: "blue-text-gradient",
         },
         {
-          name: "html",
+          name: "Microsoft",
           color: "green-text-gradient",
         },
         {
-          name: "javascript",
+          name: "Research",
           color: "orange-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Scrum",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: adobesign,
+      source_code_link: "https://www.adobe.com/au/sign.html",
+    },
+    {
+      name: "This Website",
+      description:
+        "Using React and Tailwind, my website highlights my professional journey and projects. It engages contacts and recruiters, presenting experience effectively with a user-friendly interface for seamless communication.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
@@ -243,22 +269,22 @@ import {
     {
       name: "Distributed Bank System",
       description:
-        "Web-based Bank Service developed in C# with a SQLite database where users can login, update their details. They can also send transactions to other users across instances, updating their balances accordingly",
+        "A web-based banking service using C# and the .NET framework, powered by a SQLite database. Users securely log in, manage details, and initiate transactions across instances, updating balances in real-time.",
       tags: [
         {
           name: "C Sharp",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "ASP.NET",
           color: "green-text-gradient",
         },
         {
-          name: "SQLite",
+          name: "REST API",
           color: "pink-text-gradient",
         },
         {
-          name: "javascript",
+          name: "Javascript",
           color: "orange-text-gradient",
         },
       ],
@@ -268,14 +294,14 @@ import {
     {
       name: "P2P Python Job Posting",
       description:
-        "A peer to peer applicaiton developed in C# with Rest APIs that allow users to upload jobs in python and recieve the results back by other servers/client active at the time",
+        "Developed in C# and leveraging the .NET framework, this peer-to-peer application seamlessly integrates Rest APIs. Users can effortlessly upload Python jobs and receive results from other active servers or clients in real-time.",
       tags: [
         {
           name: "C Sharp",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "ASP.NET",
           color: "green-text-gradient",
         },
         {
@@ -283,7 +309,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "ironpython",
+          name: "REST API",
           color: "orange-text-gradient",
         },
       ],
@@ -291,12 +317,12 @@ import {
       source_code_link: "https://github.com/Brandon-Hale/P2PIronPython",
     },
     {
-      name: "Mobile Contacts Application",
+      name: "Mobile Contacts App",
       description:
-        "A android application developed in Java, Android Studio that uses a database and stores contacts, that can be updated with the camera and other details. Also can import contacts from default application into list",
+        "An Android app developed in Java and Android Studio, featuring a database to store and update contacts. It allows for easy contact updates using the camera and additional details. Furthermore, it supports importing contacts from the default application into a list.",
       tags: [
         {
-          name: "java",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
@@ -304,7 +330,11 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "android studio",
+          name: "App2App",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Android studio",
           color: "orange-text-gradient",
         },
       ],

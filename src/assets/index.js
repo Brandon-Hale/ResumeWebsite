@@ -32,6 +32,7 @@ import websiteresume from "./websiteresume.png";
 import banksystem from "./banksystem.png";
 import p2p from "./p2p.png";
 import contactapp from "./contactapp.png";
+import adobesign from "./adobesign.png";
 
 export {
     github,
@@ -64,6 +65,7 @@ export {
     banksystem,
     p2p,
     contactapp,
+    adobesign,
 
     //jobs
     intellectsystems,

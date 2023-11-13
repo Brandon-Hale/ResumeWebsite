@@ -35,8 +35,8 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      Final year Software Engineering student at Curtin University with a strong foundation in Java, C#, Microsoft ASP.NET, and MySQL. 
-      I thrive on solving complex problems with a process-driven mindset and am eager to apply my skills in computing and cybersecurity to real-world challenges. 
+      Final year Software Engineering student at Curtin University with a strong foundation in Java, C#, Microsoft ASP.NET, SQL Databases and Web Development. 
+      I thrive on solving complex problems with a process-driven mindset and am eager to apply my skills in software development to real-world challenges. 
       My quick learning ability and collaborative nature make me a valuable team player, always striving for personal and professional development.
       </motion.p>
 

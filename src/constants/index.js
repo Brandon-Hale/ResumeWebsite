@@ -1,28 +1,37 @@
 import {
+    //cards
     mobile,
     backend,
     creator,
     web,
+
+    //skills
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
-    mongodb,
+    threejs,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    c,
+    mysql,
+    java,
+    net,
+    microsoft,
+    vscode,
+
+    //projects
     carrent,
     jobit,
     tripguide,
-    threejs,
+
+    //jobs
+    intellectsystems,
+    raiders,
+    whp,
+    kmart,
+    aidacare,
+    membrillo,
   } from "../assets";
   
   export const navLinks = [
@@ -42,7 +51,7 @@ import {
   
   const services = [
     {
-      title: "C# & .NET Developer",
+      title: "C# & .NET Core Developer",
       icon: web,
     },
     {
@@ -61,6 +70,22 @@ import {
   
   const technologies = [
     {
+      name: "c#",
+      icon: c,
+    },
+    {
+      name: "java",
+      icon: java,
+    },
+    {
+      name: ".Net",
+      icon: net,
+    },
+    {
+      name: "mysql",
+      icon: mysql,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -73,28 +98,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -105,12 +114,12 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "microsoft",
+      icon: microsoft,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "vscode",
+      icon: vscode,
     },
   ];
   
@@ -118,79 +127,90 @@ import {
     {
       title: "Information Technnology Intern",
       company_name: "Intellect Systems",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: intellectsystems,
+      iconBg: "#ADD8E6",
       date: "October 2023 - Present",
       points: [
-        "Researching software solutions to improve workflow automation",
-        "Software Implementation into Microsoft systems",
-        "Software Life Cycle Development and Scrum Experience",
-        "Participating in meeting with Managing Director to guide process and implementation",
+        "Researched and recommended innovative software solutions for workflow automation enhancement.",
+        "Implemented software seamlessly integrated into Microsoft systems for enhanced operational efficiency.",
+        "Applied Software Life Cycle Development and Scrum methodologies, ensuring agile and timely software delivery.",
+        "Contributed valuable insights in meetings with the Managing Director, guiding strategic processes and software implementation.",
       ],
     },
     {
       title: "Warehouse Employee",
       company_name: "Aidacare",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      icon: aidacare,
+      iconBg: "#CFFBCF",
       date: "November 2022 - November 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies."
+        "Managed stock inventory and organized warehouse logistics to optimize efficiency.",
+        "Facilitated timely delivery of medical supplies to clients and hospitals for loan and testing purposes, ensuring prompt and reliable service.",
+        "Spearheaded the setup and assembly of beds and amenities for clients and hospitals, contributing to a comfortable and functional environment.",
+        "Coordinated with suppliers and streamlined delivery processes, enhancing the overall efficiency of medical supply distribution within the warehouse."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Warehouse Employee",
+      company_name: "Membrillo",
+      icon: membrillo,
+      iconBg: "#FFFFFF",
+      date: "Feburary 2022 - June 2022",
+      points: [
+        "Orchestrated efficient warehouse operations, overseeing the careful handling and storage of fresh fruits and vegetables to maintain quality and freshness.",
+        "Executed meticulous inventory management, ensuring accurate stock levels and timely rotation of produce to minimize waste and optimize product quality.",
+        "Collaborated with team members to implement effective quality control measures, contributing to the delivery of high-quality fresh produce to clients while adhering to food safety standards.",
+      ],
+    },
+    {
+      title: "Data Entry",
+      company_name: "Work Health Professionals",
+      icon: whp,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "December 2020 - June 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Accurately inputted workers' hearing compensation data into WorkCover WA database, ensuring meticulous record-keeping.",
+        "Played a key role in various office tasks, specializing in scanning, data entry, and document printing to support seamless operations.",
+        "Contributed to efficient business processes and client communication by handling callbacks with a focus on delivering exceptional results in a timely manner."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Retail Member",
+      company_name: "K-Mart",
+      icon: kmart,
+      iconBg: "#FFFFFF",
+      date: "September 2019 - June 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Provided excellent customer service by accurately processing transactions and managing inventory to meet customer needs.",
+        "Contributed to the overall store organization and efficiency by executing tasks such as restocking shelves, arranging displays, and ensuring a neat and inviting shopping environment.",
+        "Actively engaged with customers to address inquiries, resolve issues, and enhance their shopping experience, demonstrating a commitment to customer satisfaction and retention.",
+      ],
+    },
+    {
+      title: "Under 12's Basketball Coaching",
+      company_name: "Raider's Basketball",
+      icon: raiders,
+      iconBg: "#E6DEDD",
+      date: "April 2020 - October 2020",
+      points: [
+        "Developed and implemented age-appropriate basketball training programs, fostering skill development and teamwork among young athletes.",
+        "Provided mentorship and guidance to under 12s basketball players, emphasizing sportsmanship, discipline, and a positive team culture.",
+        "Organized and conducted engaging practice sessions, focusing on skill drills, strategy development, and creating a supportive environment to nurture the players' passion for the sport.",
       ],
     },
   ];
   
   const testimonials = [
-    {
+    /*{
+      
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+      name: "Jason Monzu",
+      designation: "Managing Director",
+      company: "Intellect Systems",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    */
   ];
   
   const projects = [

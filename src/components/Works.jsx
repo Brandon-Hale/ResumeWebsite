@@ -1,5 +1,5 @@
-import { git, github } from '../assets';
-import { SectionWrapper } from '../hoc';
+import { github } from '../assets';
+import { SectionWrapper, SectionWrapper2 } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { motion } from 'framer-motion';
@@ -9,14 +9,14 @@ import { Tilt } from 'react-tilt';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link}) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className='flex-1 w-full max-w-[360px]'>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt 
         options={{
           max: 45, 
           scale: 1, 
           speed: 450
           }} 
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full xs:w-[360px]'
       >
         <div className='relative w-full h-[230px]'>
           <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl'/>
@@ -52,7 +52,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
 const Works = () => {
   return (
     <>
-      <motion.div>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My Projects</p>
         <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
@@ -74,4 +74,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper2(Works, "");

@@ -128,11 +128,23 @@ import {
   
   const experiences = [
     {
+      title: "Information Technnology Undergraduate",
+      company_name: "Intellect Systems",
+      icon: intellectsystems,
+      iconBg: "#ADD8E6",
+      date: "January 2024 - Present",
+      points: [
+        "Spearheading collaborative efforts among various departments to identify opportunities for software solutions that streamline processes and elevate operational efficiency.",
+        "Researching, implementing, and managing innovative software solutions aimed at addressing specific organisational challenges and driving continuous improvement.",
+        "Working closely under the guidance of the Managing Director, I assist in crucial decision-making processes and contribute to the strategic direction of our software initiatives."
+      ],
+    },
+    {
       title: "Information Technnology Intern",
       company_name: "Intellect Systems",
       icon: intellectsystems,
       iconBg: "#ADD8E6",
-      date: "October 2023 - Present",
+      date: "October 2023 - January 2024",
       points: [
         "Researched and recommended innovative software solutions for workflow automation enhancement.",
         "Implemented software seamlessly integrated into Microsoft systems for enhanced operational efficiency.",
